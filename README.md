@@ -18,6 +18,9 @@ npm install react-native-notifications
 @ notifications dexOption 에러 나는 경우 
 => node_modules > react-native-notifications > lib > android > app > build.gradle 안에 dexoption 부분 삭제해주기
 
+@ 어플 이름 설정
+=> main / values / strings.xml 에서 변경
+
 @ 빌드
 1. cd android && gradlew clean 캐시 삭제
 
