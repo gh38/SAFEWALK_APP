@@ -9,6 +9,8 @@ npm install react-native-notifications
     	    react-native-splash-screen
     	    react-native-webview
 
+@ react로 개발한 웹을 react native의 webview로 연결하기 위해서 웹 사이트 배포를 선행
+- gh-page로 배포
 
 @ 안드로이드 splash screen, icon 적용
 참고 - https://ssilook.tistory.com/entry/React-Native-RN-Android-Splash-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
