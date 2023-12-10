@@ -1,7 +1,7 @@
 @ 초기 설정
 1. npm install react-native-cli > npx react-native init [project_name]
 2. react-native-cli가 전역으로 설치되는 경우 새 프로젝트를 init할 때 에러나는 경우가 있음
-   - npm uninstall -g react-native-cli로 삭제해주고
+   - npm uninstall -g react-native-cli로 삭제
    - npx react-native init [project_name] --template react-native-template-typescript
    - 이후 react-native run-android 실행 시 react-native 오류가 나면 npm install react-native-cli 후 다시 실행
 
@@ -25,18 +25,18 @@ npm install react-native-notifications
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
 @ notifications dexOption 에러 나는 경우 
-=> node_modules > react-native-notifications > lib > android > app > build.gradle 안에 dexoption 부분 삭제해주기
+=> node_modules > react-native-notifications > lib > android > app > build.gradle 안에 dexoption 부분 삭제
 
 @ 어플 이름 설정
-=> main / values / strings.xml 에서 변경
+=> main\values\strings.xml 에서 변경
 
 @ 빌드
 1. cd android && gradlew clean 캐시 삭제
 
-2. android > app > src > main 안에 assets 폴더 만들어주기
+2. android > app > src > main 안에 assets 폴더 생성
 이후 터미널에 아래 입력
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 
 3. npm start / react-native run-android
 
-4. 어플 위치 > android\app\build\outputs\apk\debug 안 app-debug.apk
+4. 어플 위치 : android\app\build\outputs\apk\debug > app-debug.apk
