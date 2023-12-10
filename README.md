@@ -41,3 +41,9 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 3. npm start 또는 react-native run-android
 
 4. 어플 위치 : android\app\build\outputs\apk\debug > app-debug.apk
+
+
+
+++
+실행 시 AVD에서 초기 화면이 하얗게 나오는 경우
+- 지도가 현 위치로 초기화되기 때문에 AVD의 현재 위치를 설정에서 따로 지정해줘야 함
