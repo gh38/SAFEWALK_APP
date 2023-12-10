@@ -1,3 +1,10 @@
+@ 초기 설정
+1. npm install react-native-cli > npx react-native init [project_name]
+2. react-native-cli가 전역으로 설치되는 경우 새 프로젝트를 init할 때 에러나는 경우가 있음
+   - npm uninstall -g react-native-cli로 삭제해주고
+   - npx react-native init [project_name] --template react-native-template-typescript
+   - 이후 react-native run-android 실행 시 react-native 오류가 나면 npm install react-native-cli 후 다시 실행
+
 npm install react-native-notifications
     	    react-native-splash-screen
     	    react-native-webview
