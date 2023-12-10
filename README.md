@@ -11,6 +11,7 @@ npm install react-native-notifications
 
 @ react로 개발한 웹을 react native의 webview로 연결하기 위해서 웹 사이트 배포를 선행
 - gh-pages로 배포 가능
+( 참고 - https://velog.io/@sksgur3217/React-GitHub-Pages-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0 )
 
 @ 안드로이드 splash screen, icon 적용
 참고 - https://ssilook.tistory.com/entry/React-Native-RN-Android-Splash-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
