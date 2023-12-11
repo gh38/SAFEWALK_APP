@@ -61,11 +61,9 @@ function App(): JSX.Element {
         if(notificationResult === PermissionsAndroid.RESULTS.GRANTED){
           console.log('권한 허용');
         }else{
-          console.log('알림 권한 거부');
         }
 
       }else{
-        console.log('위치 권한 거부');
       }
     }catch(error){
       console.warn(error);
