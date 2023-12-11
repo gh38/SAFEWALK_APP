@@ -1,0 +1,13 @@
+어플 튕김 현상 발생
+(logcat - Error)
+- Default FirebaseApp is not initialized in this process
+- [패키지명] Make sure to call FirebaseApp.initializeApp(Context) first
+
+@ Firebase 에서 프로젝트 생성, 순서대로 코드 적용
+- google-services.json 파일 추가
+- classpath("com.google.gms:google-services:4.4.0")
+- implementation 'com.google.firebase:firebase-core:9.6.1'
+- apply plugin: ('com.google.gms.google-services')
+- npm install --save @react-native-firebase/app
+- import com.google.firebase.FirebaseApp;
+- FirebaseApp.initializeApp(this);
