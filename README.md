@@ -47,3 +47,4 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 ++
 실행 시 AVD에서 초기 화면이 하얗게 나오는 경우
 - 지도가 현 위치로 초기화되기 때문에 AVD의 현재 위치를 설정에서 따로 지정해줘야 함
+- 또는 실제 기기에서 확인
